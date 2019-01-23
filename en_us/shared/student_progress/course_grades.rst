@@ -380,7 +380,7 @@ The gradebook displays a table, with a row for each learner enrolled in the
 course, listed by user name, and a column for each assignment in the course. 
 The gradebook includes the following features.
 
-* You can choose whether to view scores as a percent, from 0% to 100%, or as an
+* You can choose whether to view grades as a percent, from 0% to 100%, or as an
   absolute score (for example, 10 out of 14).
 
 * You can filter the columns displayed in the gradebook by assignment type.
@@ -391,12 +391,8 @@ The gradebook includes the following features.
 * You can search for individual learners by their user name, using the search
   field. Searches are case-insensitive.
 
-* You can sort by each column. Sorting the **Username** column sorts learners
-  by their usernames, alphabetically or reverse alphabetically. Sorting by an 
-  assignment column sorts by score, in ascending or descending order.
-
-* You can change, or override, the score that Studio hasgiven a learner for a 
-  specific problem. For information about how to do this, see 
+* You can change, or override, the grade that a learner has received for a 
+  specific subsection. For information about how to do this, see 
   :ref:`Override in Gradebook`.
 
 
@@ -562,10 +558,10 @@ Staff Debug viewer for the problem.
 
 .. _Override in Gradebook:
 
-Override a Learner's Score Using the Instructor Dashboard Gradebook
-***********************************************************************
+Override a Learner's Subsection Score Using the Instructor Dashboard Gradebook
+******************************************************************************
 
-To override a learner's score for a specific problem by using the instructor
+To override a learner's score for a specific subsection by using the instructor
 dashboard Gradebook, follow these steps.
 
 #. View the live version of your course in the LMS.
